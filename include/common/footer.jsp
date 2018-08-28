@@ -122,7 +122,7 @@
         </div>
         <!--subscribe-->
         <div class="wrap-copyright">
-            <a href="index.php" data-ride="animated" data-animation="fadeInUp">
+            <a href="index.jsp" data-ride="animated" data-animation="fadeInUp">
                 <img src="res/img/logo_foresting@2x.png" width="150px" height="29px">
             </a>
             <p class="copyright" data-ride="animated" data-animation="fadeInUp">Copyright ⓒ 2018 FORESTING HQ Pte. Ltd. All Rights Reserved.</p>

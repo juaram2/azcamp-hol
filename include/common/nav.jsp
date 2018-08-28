@@ -4,7 +4,7 @@
     <header>
         <div class="h-wrap">
             <h1 class="h-logo">
-                <a href="index.php">
+                <a href="index.jsp">
                     <img src="res/img/logo_foresting_f@2x.png">
                 </a>
             </h1>
