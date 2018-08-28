@@ -262,23 +262,6 @@
                 <a href="https://ico.foresting.io/" target="_blank">
                     <span>CHECK THE PRE-SALE RESULT</span>
                 </a>
-
-                <!--<p class="t-txt">PTON <span>PRE-SALE</span></p>
-        <p class="t-txt-live"><img src="res/img/presaleLive.png" width="136" height="54"></p>
-        <p class="t-txt-time">        
-            <span id="clock"></span>
-            <span><strong>2018.08.10</strong> UTC+8 09:00 ~ <strong>2018.08.24</strong> UTC+8 23:00</span>
-        </p>
-        <a href="https://ico.foresting.io/" target="_blank"><span>PARTICIPATE NOW!</span></a>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment-with-locales.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.4.0/moment-timezone-with-data-2010-2020.min.js"></script>
-        <script>
-        var timer = moment.tz("2018-08-24 24:00", "Asia/Seoul");
-        $('#clock').countdown(timer.toDate(), {elapse:true}).on('update.countdown', function(event) {
-          $(this).html(event.strftime('%D') + '<b>days</b>' + event.strftime('%H : %M : %S'));
-        });
-        </script>-->
             </div>
 
             <div class="section-links scroll">
@@ -321,11 +304,41 @@
 
             <!--footer-->
             <jsp:include page="include/common/footer.jsp" />
+            <!--footer-->
 
-            <!-- scripts -->
-            <script type="text/javascript" src="res/js/jquery.bundle.js"></script>
-            <script type="text/javascript" src="res/js/script.js?ver0.2.5"></script>
-            <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+            <!--top button-->
+            <div class="btn-goTop">
+                <a href="#">
+                    <img src="res/img/btn-top.png" alt="goTop" width="20" height="20">
+                </a>
+            </div>
+        </div>
+
+        <div id="popupPrivacy">
+            <div>
+                <div class="privacy-close">
+                    <a>
+                        <img src="res/img/s8-btn.png">
+                    </a>
+                </div>
+                <section></section>
+            </div>
+        </div>
+        <div id="popupTerms">
+            <div>
+                <div class="privacy-close">
+                    <a>
+                        <img src="res/img/s8-btn.png">
+                    </a>
+                </div>
+                <section></section>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script type="text/javascript" src="res/js/jquery.bundle.js"></script>
+        <script type="text/javascript" src="res/js/script.js?ver0.2.5"></script>
+        <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
     </body>
 
     </html>

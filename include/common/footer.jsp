@@ -128,33 +128,3 @@
             <p class="copyright" data-ride="animated" data-animation="fadeInUp">Copyright ⓒ 2018 FORESTING HQ Pte. Ltd. All Rights Reserved.</p>
         </div>
     </footer>
-    <!--footer-->
-
-    <!--top button-->
-    <div class="btn-goTop">
-        <a href="#">
-            <img src="res/img/btn-top.png" alt="goTop" width="20" height="20">
-        </a>
-    </div>
-    </div>
-
-    <div id="popupPrivacy">
-        <div>
-            <div class="privacy-close">
-                <a>
-                    <img src="res/img/s8-btn.png">
-                </a>
-            </div>
-            <section></section>
-        </div>
-    </div>
-    <div id="popupTerms">
-        <div>
-            <div class="privacy-close">
-                <a>
-                    <img src="res/img/s8-btn.png">
-                </a>
-            </div>
-            <section></section>
-        </div>
-    </div>
